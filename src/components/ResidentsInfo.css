@@ -1,0 +1,86 @@
+*, 
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    background-image: url(../img/background.jpg);
+}
+
+
+@media (min-width: 320px){
+    .residentInfo__initial{
+        display: flex;
+        justify-content: center;
+       
+    
+    }
+    .residenInfo__container{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        justify-content: space-between;
+        border: 2px solid #8EFF8B
+    }
+    .conatiner__image{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: flex-end;
+
+    }
+    .residentInfo__img{
+        width: 250px;
+        height: 240px;
+        border: 2px solid #8EFF8B
+    
+    }
+   
+      
+    .residentInfo__text{
+        font-size: 14px;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap:6px;
+      margin: 10px 10px 10px 10px ;
+      padding-bottom: 10px;
+      letter-spacing: 1px;
+    
+    }
+    .status{
+        width: 110px;
+        height: 30px;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        position: absolute;
+        color: #ffffff;
+        background-color: #020A02CC ;
+        border: 2px solid #8EFF8B ;
+        margin-bottom: 20px ;
+        
+    }
+    .status__container{
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        
+    }
+
+}
+
+ 
+ 
